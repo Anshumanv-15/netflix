@@ -46,6 +46,10 @@ header.black-bg{
     cursor: pointer;
 }
 
+#header .brands{
+    display: none;
+}
+
 .main-nav{
     list-style: none;
     display: flex;
@@ -226,5 +230,12 @@ header.black-bg{
     }
     .banner-overview, .banner-title{          
         max-width: 100%;  
+    }
+    #header .brands{
+        max-width: 60px;
+        display: flex;
+    }
+    #header .brand{
+        display: none;
     }
 }
