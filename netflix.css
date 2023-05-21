@@ -62,6 +62,10 @@ header.black-bg{
     cursor: pointer;
 }
 
+.nav-item:hover{
+    color: red;
+}
+
 .right-cont svg, .right-cont img{
     margin-right: 22px;
     cursor: pointer;
